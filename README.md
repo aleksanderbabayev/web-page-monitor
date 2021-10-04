@@ -19,8 +19,8 @@ To deploy the service on you local machine use your command line tool (cmd, bash
 ### Get the source code and create your feature branch
 
 ```bash
-git clone https://github.com/aleksanderbabayev/web-page-monitor.git web-page-monotor
-cd web-page-monotor
+git clone https://github.com/aleksanderbabayev/web-page-monitor.git web-page-monitor
+cd web-page-monitor
 git checkout -b mybranch main
 composer require jfcherng/php-diff
 ```
@@ -61,6 +61,12 @@ Get back to you OS command line tool into the project's directory and execute:
 php artisan migrate
 ```
 
+Generate application key:
+
+```bash
+php artisan key:generate
+```
+
 
 ## Usage
 
@@ -73,5 +79,5 @@ php artisan serve --port 8000
 ### Run the sheduler
 
 ```bash
-php artisan php artisan schedule:work
+php artisan schedule:work
 ```
