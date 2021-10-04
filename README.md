@@ -45,6 +45,9 @@ DB_PORT=3306
 DB_DATABASE=wpmonitor
 DB_USERNAME=root
 DB_PASSWORD=
+
+MONITORED_SITE_ADDRESS=iteriasoft.com
+MONITORED_PAGE_ADDRESS=index.html
 ```
 
 ### Create a database
